@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Welcome to Nice</string>
+
+    //Strings for the food category
+
+    <string name="big_ben_name">Big Ben</string>
+    <string name="big_ben_open_hours">Open hours: 17:30 &#8211; 02.00</string>
+    <string name="big_ben_address">Address: 9 rue Alberti, 06000 Nice, France</string>
+    <string name="big_ben_phone">Phone: +33 4 93 80 09 74</string>
+    <string name="big_ben_info">Info: One of the most amazing Irish pubs in Nice.
+        Large choice of beers from all around the world, cosy atmosphere and very friendly staff.</string>
+
+    <string name="hard_rock_name">Hard Rock Cafe</string>
+    <string name="hard_rock_open_hours">Open hours: 12:00 &#8211; 24:00</string>
+    <string name="hard_rock_address">Address: 5 Promenade des Anglais, 06000 Nice, France</string>
+    <string name="hard_rock_phone">Phone: +33 4 93 62 71 80</string>
+    <string name="hard_rock_info">Info: Imagine sipping a cocktail and eating a Legendary® Burger
+        beside the teal waters of the Mediterranean Sea. This can be your reality when you visit Hard Rock Cafe Nice.
+        Nestled near Vieux Nice along the waterfront on the Promenade des Anglais, the multi-level cafe in Nice,
+        France is a must-see for both visitors and locals. </string>
+
+    <string name="pinocchio_name">Gelateria Pinocchio</string>
+    <string name="pinocchio_open_hours">Open Hours: 07:00 &#8211; 24:30</string>
+    <string name="pinocchio_address">Address: 2 Rue Massena, 06000 Nice, France</string>
+    <string name="pinocchio_phone">Phone: n/a</string>
+    <string name="pinocchio_info">Info: If you love ice cream, this is the place to be. The shops offers more than 40
+    different flavours and all of them are homemade. You can try also the best pancakes on the French Riviera, as well as
+    amazing cocktails. They offer also paninis, sandwiches, waffles and slices of very tasty pizzas. </string>
+
+    <string name="buffalo_name">Buffalo Grill Nice</string>
+    <string name="buffalo_open_hours">Open Hours: 11:30 &#8211; 23:30</string>
+    <string name="buffalo_address">Address: 2 Avenue des Phocéens, 06300 Nice, France</string>
+    <string name="buffalo_phone">Phone: n/a</string>
+    <string name="buffalo_info">Info: The bar have an amazing atmosphere, as if you are in a western movie with cowboys
+    and indians. They offer huge range of stacks, ribs and all kind of tasty meat. </string>
+
+    //Strings for the sights category
+    <string name="garden_name">Promenade du Paillon</string>
+    <string name="garden_open_hours">Open Hours: 07:00 &#8211; 23:00</string>
+    <string name="garden_address">Address: 2 Avenue des Phocéens, 06300 Nice, France</string>
+    <string name="garden_phone">Phone: n/a</string>
+    <string name="garden_info">Info: In the heart of the city covering a distance of 1.2 km,
+        discover the view from the Boscolo Plaza Hotel over the Promenade du Paillon, a new green belt of 12 hectares
+        between the Théâtre National de Nice and the sea.</string>
+
+    <string name="castle_name">Parc du Chateau</string>
+    <string name="castle_open_hours">Open Hours: 09:00 &#8211; 20:00</string>
+    <string name="castle_address">Address: Montee du Chateau, Vieux Nice, 06300 Nice, France</string>
+    <string name="castle_phone">Phone: n/a</string>
+    <string name="castle_info">Info: This is the place where the ruins of the former Chateau de Nice can be spotted.
+        It is s not just its inner highlights which recommend the park as a tourist must-see, but also the fact the park
+        is one of the best lookouts in Nice, opening the view all the way to Promenade des Anglais and Baie des Anges (west)
+        and Port de Nice (at east).</string>
+
+    <string name="marche_name">Marché aux Fleurs</string>
+    <string name="marche_open_hours">Open hours: 06:30 &#8211; 17:30</string>
+    <string name="marche_address">Address: Cours Saleya - 06300 Nice, France</string>
+    <string name="marche_phone">Phone: n/a</string>
+    <string name="marche_info">Info: In the shade of pretty striped awnings, hundreds of flowers make eyes at you.
+        It will be hard to resist the multicoloured geraniums, intense mauve fuchsias, dahlias with their anemone-shaped flowers,
+        and the vivid impatiens being sold by the nursery vendors. Anyone strolling by these harmonious floral displays will be
+        able to breathe in the fragrances and enjoy the colourful bouquets, plants and exotic flowers that await them. This is
+        also an ideal opportunity to ask around thirty exhibitors, florists and horticulturists for advice. The market it held
+        every day, from 6 am to 5.30 pm except Mondays, Sunday afternoons and public holidays</string>
+
+    <string name="negresco_name">Hotel NEGRESCO</string>
+    <string name="negresco_open_hours">Open Hours: 24/7</string>
+    <string name="negresco_address">Location: 37 Promenade des Anglais, 06000 Nice, France</string>
+    <string name="negresco_phone">Phone: +33 4 93 16 64 00</string>
+    <string name="negresco_info">Info: Dating back to 1913, this grand beachfront hotel is an 11-minute walk from the
+        Jardin Albert 1er public park and 15 minutes walk from the Musée des Beaux-Arts de Nice.
+        Stately, colorful rooms blend contemporary and traditional decor. All come with flat-screen TVs and free WiFi;
+        many have sea views. Suites add separate living rooms and furnished balconies.
+        There is a gourmet restaurant and a carousel-themed bistro with a terrace, plus a walnut-paneled bar.
+        Other amenities include conference facilities and access to a private beach (fee).
+        In-room massages are available (surcharge).</string>
+
+    //Strings for the Fun category
+    <string name="cinema_name">Cinéma Pathé Massena</string>
+    <string name="cinema_open_hours">Open Hours: 09:30 &#8211; 01:00</string>
+    <string name="cinema_address">Address: 31 Avenue Jean Médecin, 06200 Nice, France</string>
+    <string name="cinema_phone">Phone:+33 892 69 66 96</string>
+    <string name="cinema_info">Info: The best place to see a movie in the heart of the center in Nice.
+    Most of the titles are with french voice&#8211;over but you can still catch some of them with
+    original audio and french subtitles. Of course, you can buy some popcorn and fresh drink inside the cinema.</string>
+
+    <string name="bowling_name">Nice Bowling Acropolis</string>
+    <string name="bowling_open_hours">Open Hours: 13:00 &#8211; 02:30 </string>
+    <string name="bowling_address">Address: 5 Esplanade Kennedy, 06000 Nice, France</string>
+    <string name="bowling_phone">Phone:+33 4 93 55 33 11</string>
+    <string name="bowling_info">Info: A great place to practice your bowling skills, there are 10 pool tables,
+        some arcade games and airhokey. While having fun, you can grab some drinks or cocktails from the bar.</string>
+
+    <string name="club_name">High Club</string>
+    <string name="club_open_hours">Open Hours: 24:00 &#8211; 05:00</string>
+    <string name="club_address">Address: 45&#8211;47 Prom. des Anglais, 06000 Nice, France</string>
+    <string name="club_phone">Phone: +33 7 81 88 42 04</string>
+    <string name="club_info">Info: One of the most famous night clubs on the French Riviera. Host to a lot
+    famous artist and Djs from all around the world. </string>
+
+    <string name="water_sport_name">Nikaia Water Sport</string>
+    <string name="water_sport_open_hours">Open Hours: 09:00 &#8211; 17:00 </string>
+    <string name="water_sport_address">Address: HOTEL BEAU RIVAGE, Quai des États-Unis, 06300 Nice, France</string>
+    <string name="water_sport_phone">Phone:+33 6 09 16 02 16</string>
+    <string name="water_sport_info">Info: You like the water, jet skis, motorboats and all kind of summer beach activities 
+    &#8211; this is the right place for you and your family. </string>
+
+    //String for the Shopping category
+
+    <string name="fnac_name">Fnac Nice</string>
+    <string name="fnac_open_hours">Open Hours: 10:00 &#8211; 19.30 </string>
+    <string name="fnac_address">Address: 44&#8211;46 Avenue Jean Médecin, 06008 Nice, France</string>
+    <string name="fnac_phone">Phone: Phone:+33 825 02 00 20</string>
+    <string name="fnac_info">Info: Here you can find a range of products from audio, books, CDs,
+        computer software and hardware, DVDs, televisions and video games.</string>
+
+    <string name="mall_name">Centre Commercial Nicetoile</string>
+    <string name="mall_open_hours">Open Hours: 10:00 &#8211; 20:00 </string>
+    <string name="mall_address">Address: 30 Avenue Jean Médecin, 06000 Nice, France</string>
+    <string name="mall_phone">Phone: +33 4 92 17 38 17</string>
+    <string name="mall_info">Info: The one and only mall in the center of Nice. Home to a lot of the famous brands like
+    Addidas, Fossil, Maison du Monde, Ice Watch, Micromania and many other. While shopping, there are places to
+    grab something to eat and drink, to relax or do your nails and hair. </string>
+
+    <string name="game_shop_name">Micromania</string>
+    <string name="game_shop_open_hours">Open Hours: 10:00 &#8211; 19:30</string>
+    <string name="game_shop_address">Address: 35 Avenue Jean Médecin, 06000 Nice, France</string>
+    <string name="game_shop_phone">Phone: +33 4 93 88 23 20</string>
+    <string name="game_shop_info">Info: The "Nirvana" for all hardcore PC, PS and XBox gamers, anime fans and geeks
+    of all ages. Buy new games, sell your old ones. Get discounts and have fun.</string>
+
+    <string name="hm_name">H&amp;M</string>
+    <string name="hm_open_hours">Open Hours: 9:30 &#8211; 20:30 </string>
+    <string name="hm_address">Address: 15 Avenue Jean Médecin, 06000 Nice, France</string>
+    <string name="hm_phone">Phone: +33 811 65 54 55</string>
+    <string name="hm_info">Info: Chain retailer supplying on-trend clothing, swimwear, accessories &#8211; shoes.</string>
+    <string name="food">Food</string>
+    <string name="fun">Fun</string>
+    <string name="shopping">Shopping</string>
+    <string name="sights">Sights</string>
+    <string name="the_beach_in_nice">the beach in Nice</string>
+    <string name="welcome_to_nice">Welcome to Nice</string>
+    <string name="food_icon">food icon</string>
+    <string name="sights_icon">sights icon</string>
+    <string name="shopping_icon">shopping icon</string>
+    <string name="fun_icon">fun icon</string>
+    <string name="location_photo">location photo</string>
+
+
+</resources>

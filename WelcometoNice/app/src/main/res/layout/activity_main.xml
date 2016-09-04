@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.welcometonice.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/the_beach_in_nice"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nice" />
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:text="@string/welcome_to_nice"
+            android:textSize="40sp" />
+
+        <RelativeLayout
+            android:id="@+id/categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:background="@color/grey">
+
+            <ImageView
+                android:id="@+id/food_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/icon_margin"
+                android:layout_marginStart="@dimen/icon_margin"
+                android:layout_marginTop="@dimen/icon_margin"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/food_icon"
+                android:src="@drawable/food" />
+
+
+            <TextView
+                android:id="@+id/food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/food_icon"
+                android:layout_marginEnd="@dimen/food_text_margin_right"
+                android:layout_marginLeft="@dimen/food_text_margin_left"
+                android:layout_marginRight="@dimen/food_text_margin_right"
+                android:layout_marginStart="@dimen/food_text_margin_left"
+                android:layout_marginTop="@dimen/text_margin_top"
+                android:text="@string/food"
+                android:textAllCaps="true"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/sights_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/sights"
+                android:layout_alignRight="@+id/sights"
+                android:layout_marginEnd="@dimen/icon_margin"
+                android:layout_marginRight="@dimen/icon_margin"
+                android:layout_marginTop="@dimen/icon_margin"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/sights_icon"
+                android:src="@drawable/sights" />
+
+            <TextView
+                android:id="@+id/sights"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sights_icon"
+                android:layout_marginTop="@dimen/text_margin_top"
+                android:layout_toEndOf="@+id/food"
+                android:layout_toRightOf="@+id/food"
+                android:paddingEnd="@dimen/sights_text_padding_right"
+                android:paddingRight="@dimen/sights_text_padding_right"
+                android:text="@string/sights"
+                android:textAllCaps="true"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/shopping_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/food"
+                android:layout_marginLeft="@dimen/icon_margin"
+                android:layout_marginStart="@dimen/icon_margin"
+                android:layout_marginTop="@dimen/icon_margin2"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/shopping_icon"
+                android:src="@drawable/bag" />
+
+            <TextView
+                android:id="@+id/shopping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shopping_icon"
+                android:layout_marginBottom="@dimen/icon_margin"
+                android:layout_marginLeft="@dimen/text_margin_left13"
+                android:layout_marginStart="@dimen/text_margin_left13"
+                android:layout_marginTop="@dimen/text_margin_top"
+                android:text="@string/shopping"
+                android:textAllCaps="true"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/fun_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/sights_icon"
+                android:layout_alignStart="@+id/sights_icon"
+                android:layout_alignTop="@+id/shopping_icon"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/fun_icon"
+                android:src="@drawable/fun" />
+
+            <TextView
+                android:id="@+id/fun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/sights_icon"
+                android:layout_alignRight="@+id/sights_icon"
+                android:layout_below="@+id/fun_icon"
+                android:paddingEnd="45dp"
+                android:paddingRight="45dp"
+                android:text="@string/fun"
+                android:textAllCaps="true"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

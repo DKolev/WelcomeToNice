@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/location_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/list_item_margin5"
+                android:contentDescription="@string/location_photo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bigben" />
+
+            <TextView
+                android:id="@+id/location_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/location_photo"
+                android:layout_marginTop="@dimen/list_margin_top19"
+                android:gravity="center_horizontal"
+                android:textSize="25sp"
+                tools:text="Big Ben" />
+
+            <TextView
+                android:id="@+id/location_open_hours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/location_name"
+                android:layout_marginTop="@dimen/list_margin_top16"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                tools:text="Open hours: 17:30 - 02.00" />
+
+            <TextView
+                android:id="@+id/location_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/location_open_hours"
+                android:layout_marginTop="@dimen/list_item_margin5"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                tools:text="Phone: +33 4 93 80 09 74" />
+
+            <TextView
+                android:id="@+id/location_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/location_phone"
+                android:layout_marginTop="@dimen/list_item_margin5"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                tools:text="Address: 9 rue Alberti, 06000 Nice, France" />
+
+            <TextView
+                android:id="@+id/location_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/location_address"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/list_margin_bottom24"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/list_margin_top16"
+                android:textSize="20sp"
+                tools:text="Info: One of the most amazing Irish pub in Nice. Large choice of beers from all around the world, cosy atmosphere and very friendly staff.
+" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
